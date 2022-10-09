@@ -1,0 +1,73 @@
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+.nav_ul {
+    text-align: center;
+    }
+.nav_li {
+    display: inline-block;
+    margin-right: 48px;
+    }
+    .header {
+        margin: 53px 0;
+    }
+.nav_li:no(:last-of-type){
+    margin-right: 48px;
+}
+.nav_link {
+    font-weight: 700px;
+    line-height: 25px;
+    line-height: 100%;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.background {
+    text-align: center;
+    padding: 138px 264px;
+    background-image: url(../Project2/img/pexels-harrison-candlin-2441454\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.background_title{
+   font-weight: 700px; 
+   font-size: 72px;
+   line-height:98.05px;
+   color: #ffff;
+
+}
+.container {
+    max-width: 1400px;
+    margin: o auto;
+}
+.description {
+    background-color: #3591c0;
+    text-align: center;
+    padding: 30px 0;
+}
+.description_text {
+    max-width: 726px;
+    margin: 0 auto 134px;
+   padding: 133px 274px 134px 370px;
+   color:  #FFFFFF;
+   ;
+}
+.description_button {
+width: 420px;
+height: 70px;
+border-radius: 5px;
+background-color: #ffff;
+border: none;
+font-weight: 700;
+font-size: 36px;
+line-height: 49.03px;
+}
+.description_poem {
+    text-align: center;
+    max-width: 696px;
+    margin: 0 auto 134px;
+    padding: 221px 380px 216px 364px;
+}

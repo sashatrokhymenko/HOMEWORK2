@@ -46,7 +46,7 @@ font-family: 'Open Sans', sans-serif;
 .description {
     background-color: #3591c0;
     text-align: center;
-    padding: 30px 0;
+    margin: 0 auto;
 }
 .description_text {
     max-width: 726px;
@@ -68,6 +68,49 @@ line-height: 49.03px;
 .description_poem {
     text-align: center;
     max-width: 696px;
+    height: 297px;
     margin: 0 auto 134px;
     padding: 221px 380px 216px 364px;
+}
+
+
+.form-section {
+    margin: 63px auto 100px;
+    max-width: 647px;
+}
+.input_wrapper {
+    position: relative;
+    margin-bottom: 41px;
+}
+.input {
+    width: 647px;
+    padding: 33px 0 14px 31px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.label {
+    position: absolute;
+    left: 33px;
+    top: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #000000;
+}
+.input::placeholder {
+    font-size: 26px; 
+    line-height: 39px;
+    font-weight: 300;
+    color: #000000;
+}
+.form_button {
+    width: 647px;
+    height: 92px;
+    background: #5C98AB;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+
 }

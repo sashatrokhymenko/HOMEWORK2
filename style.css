@@ -27,7 +27,7 @@ font-family: 'Open Sans', sans-serif;
 .background {
     text-align: center;
     padding: 138px 264px;
-    background-image: url(../Project2/img/pexels-harrison-candlin-2441454\ 1.svg);
+    background-image: url(../Project2/img/pexels-harrison-candlin-2441454\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,9 +44,11 @@ font-family: 'Open Sans', sans-serif;
     margin: o auto;
 }
 .description {
-    background-color: #3591c0;
+    background-color: #5C98AB;
+    border-radius: 5px; 
     text-align: center;
     margin: 0 auto;
+    padding: 30px 50px 20px 50px;
 }
 .description_text {
     max-width: 726px;

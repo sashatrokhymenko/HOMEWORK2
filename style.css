@@ -51,11 +51,13 @@ font-family: 'Open Sans', sans-serif;
     padding: 30px 50px 20px 50px;
 }
 .description_text {
-    max-width: 726px;
+    max-width: 696px;
     margin: 0 auto 134px;
-   padding: 133px 274px 134px 370px;
-   color:  #FFFFFF;
-   ;
+    font-weight: 400px;
+    line-height: 49px;
+    padding: 133px 274px 134px 370px;
+    color:  #FFFFFF;
+   
 }
 .description_button {
 width: 420px;
@@ -67,15 +69,50 @@ font-weight: 700;
 font-size: 36px;
 line-height: 49.03px;
 }
-.description_poem {
+.square{
+    position: relative;
+    margin: 221px auto;
+}
+.square_text {
     text-align: center;
     max-width: 696px;
-    height: 297px;
-    margin: 0 auto 134px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 auto auto;
     padding: 221px 380px 216px 364px;
 }
 
-
+.square_item {
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background-color:  #BFDEFB;
+}
+.item1 {
+    background-color: #BFDEFB;
+    top: -121px;
+    left: -10px;
+}
+.item2 {
+   bottom: -60px;
+}
+.item3 {
+    right: 0;
+    top: 20px;
+   
+}
+.circle_text {
+    text-align: center;
+    max-width: 696px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 auto;
+    }
+    .container circle {
+width: 50%;
+height: 500px;
+border: 1px solid gray;
+    }
 .form-section {
     margin: 63px auto 100px;
     max-width: 647px;
